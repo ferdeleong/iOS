@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Empleado {
+struct Empleado : Codable {
     var nombre: String
     var sueldo: Double
 }
