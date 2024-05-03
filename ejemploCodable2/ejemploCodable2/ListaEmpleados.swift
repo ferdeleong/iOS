@@ -21,9 +21,9 @@ class ListaEmpleados : ObservableObject {
     
     init() {
         if let datosRecuperados = try? Data.init(contentsOf: rutaArchivo()) {
-            if let datosDecodificados = try?
-                JSONDecoder().decode([Empleado].self, from: datosRecuperados) {
+            if let datosDecodificados = try? JSONDecoder().decode([Empleado].self, from: datosRecuperados) {
                 empleados = datosDecodificados
+                return
             } else {
                 print("error al codificar")
             }
