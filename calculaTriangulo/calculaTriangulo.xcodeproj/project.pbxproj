@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C28CF7A2BC4F7D900692C61 /* calculaTrianguloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C28CF792BC4F7D900692C61 /* calculaTrianguloApp.swift */; };
+		9C28CF7C2BC4F7D900692C61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C28CF7B2BC4F7D900692C61 /* ContentView.swift */; };
+		9C28CF7E2BC4F7DC00692C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C28CF7D2BC4F7DC00692C61 /* Assets.xcassets */; };
+		9C28CF812BC4F7DC00692C61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C28CF802BC4F7DC00692C61 /* Preview Assets.xcassets */; };
+		9C28CF882BC4F82000692C61 /* Triangulo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C28CF872BC4F82000692C61 /* Triangulo.swift */; };
+		CAF6F1FC2C00055C005EF468 /* calculaTrianguloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF6F1FB2C00055C005EF468 /* calculaTrianguloTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAF6F1FD2C00055C005EF468 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C28CF6E2BC4F7D900692C61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C28CF752BC4F7D900692C61;
+			remoteInfo = calculaTriangulo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C28CF762BC4F7D900692C61 /* calculaTriangulo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculaTriangulo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C28CF792BC4F7D900692C61 /* calculaTrianguloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculaTrianguloApp.swift; sourceTree = "<group>"; };
+		9C28CF7B2BC4F7D900692C61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C28CF7D2BC4F7DC00692C61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C28CF802BC4F7DC00692C61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C28CF872BC4F82000692C61 /* Triangulo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangulo.swift; sourceTree = "<group>"; };
+		CAF6F1F92C00055C005EF468 /* calculaTrianguloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculaTrianguloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF6F1FB2C00055C005EF468 /* calculaTrianguloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculaTrianguloTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C28CF732BC4F7D900692C61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF6F1F62C00055C005EF468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C28CF6D2BC4F7D900692C61 = {
+			isa = PBXGroup;
+			children = (
+				9C28CF782BC4F7D900692C61 /* calculaTriangulo */,
+				CAF6F1FA2C00055C005EF468 /* calculaTrianguloTests */,
+				9C28CF772BC4F7D900692C61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C28CF772BC4F7D900692C61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C28CF762BC4F7D900692C61 /* calculaTriangulo.app */,
+				CAF6F1F92C00055C005EF468 /* calculaTrianguloTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C28CF782BC4F7D900692C61 /* calculaTriangulo */ = {
+			isa = PBXGroup;
+			children = (
+				9C28CF792BC4F7D900692C61 /* calculaTrianguloApp.swift */,
+				9C28CF7B2BC4F7D900692C61 /* ContentView.swift */,
+				9C28CF872BC4F82000692C61 /* Triangulo.swift */,
+				9C28CF7D2BC4F7DC00692C61 /* Assets.xcassets */,
+				9C28CF7F2BC4F7DC00692C61 /* Preview Content */,
+			);
+			path = calculaTriangulo;
+			sourceTree = "<group>";
+		};
+		9C28CF7F2BC4F7DC00692C61 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9C28CF802BC4F7DC00692C61 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAF6F1FA2C00055C005EF468 /* calculaTrianguloTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF6F1FB2C00055C005EF468 /* calculaTrianguloTests.swift */,
+			);
+			path = calculaTrianguloTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C28CF752BC4F7D900692C61 /* calculaTriangulo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C28CF842BC4F7DC00692C61 /* Build configuration list for PBXNativeTarget "calculaTriangulo" */;
+			buildPhases = (
+				9C28CF722BC4F7D900692C61 /* Sources */,
+				9C28CF732BC4F7D900692C61 /* Frameworks */,
+				9C28CF742BC4F7D900692C61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = calculaTriangulo;
+			productName = calculaTriangulo;
+			productReference = 9C28CF762BC4F7D900692C61 /* calculaTriangulo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAF6F1F82C00055C005EF468 /* calculaTrianguloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF6F2012C00055C005EF468 /* Build configuration list for PBXNativeTarget "calculaTrianguloTests" */;
+			buildPhases = (
+				CAF6F1F52C00055C005EF468 /* Sources */,
+				CAF6F1F62C00055C005EF468 /* Frameworks */,
+				CAF6F1F72C00055C005EF468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF6F1FE2C00055C005EF468 /* PBXTargetDependency */,
+			);
+			name = calculaTrianguloTests;
+			productName = calculaTrianguloTests;
+			productReference = CAF6F1F92C00055C005EF468 /* calculaTrianguloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C28CF6E2BC4F7D900692C61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					9C28CF752BC4F7D900692C61 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CAF6F1F82C00055C005EF468 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9C28CF752BC4F7D900692C61;
+					};
+				};
+			};
+			buildConfigurationList = 9C28CF712BC4F7D900692C61 /* Build configuration list for PBXProject "calculaTriangulo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C28CF6D2BC4F7D900692C61;
+			productRefGroup = 9C28CF772BC4F7D900692C61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C28CF752BC4F7D900692C61 /* calculaTriangulo */,
+				CAF6F1F82C00055C005EF468 /* calculaTrianguloTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C28CF742BC4F7D900692C61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C28CF812BC4F7DC00692C61 /* Preview Assets.xcassets in Resources */,
+				9C28CF7E2BC4F7DC00692C61 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF6F1F72C00055C005EF468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C28CF722BC4F7D900692C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C28CF7C2BC4F7D900692C61 /* ContentView.swift in Sources */,
+				9C28CF7A2BC4F7D900692C61 /* calculaTrianguloApp.swift in Sources */,
+				9C28CF882BC4F82000692C61 /* Triangulo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF6F1F52C00055C005EF468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF6F1FC2C00055C005EF468 /* calculaTrianguloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAF6F1FE2C00055C005EF468 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C28CF752BC4F7D900692C61 /* calculaTriangulo */;
+			targetProxy = CAF6F1FD2C00055C005EF468 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9C28CF822BC4F7DC00692C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C28CF832BC4F7DC00692C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C28CF852BC4F7DC00692C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"calculaTriangulo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Fernanda.calculaTriangulo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C28CF862BC4F7DC00692C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"calculaTriangulo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Fernanda.calculaTriangulo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAF6F1FF2C00055C005EF468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8B552K9J4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fernanda.calculaTrianguloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calculaTriangulo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/calculaTriangulo";
+			};
+			name = Debug;
+		};
+		CAF6F2002C00055C005EF468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8B552K9J4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fernanda.calculaTrianguloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calculaTriangulo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/calculaTriangulo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C28CF712BC4F7D900692C61 /* Build configuration list for PBXProject "calculaTriangulo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C28CF822BC4F7DC00692C61 /* Debug */,
+				9C28CF832BC4F7DC00692C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C28CF842BC4F7DC00692C61 /* Build configuration list for PBXNativeTarget "calculaTriangulo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C28CF852BC4F7DC00692C61 /* Debug */,
+				9C28CF862BC4F7DC00692C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF6F2012C00055C005EF468 /* Build configuration list for PBXNativeTarget "calculaTrianguloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF6F1FF2C00055C005EF468 /* Debug */,
+				CAF6F2002C00055C005EF468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C28CF6E2BC4F7D900692C61 /* Project object */;
+}
