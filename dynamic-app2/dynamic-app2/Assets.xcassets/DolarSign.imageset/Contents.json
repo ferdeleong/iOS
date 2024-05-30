@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "a3139d185dea5e2dadb75b40a1c369d7-icono-de-finanzas-de-negocio-de-billetes-caa-da-de-dinero.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
